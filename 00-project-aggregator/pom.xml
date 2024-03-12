@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	
+	<groupId>com.srvivek.sboot</groupId>
+	<artifactId>00-project-aggregator</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<name>00-project-aggregator</name>
+	<description>Project aggregator</description>
+	<packaging>pom</packaging>
+
+	<properties>
+		<java.version>17</java.version>
+	</properties>
+
+	<modules>
+		<module>../01-restfule-web-services</module>
+		<module>../02-restfule-web-services</module>
+		<module>../03-rest-ws-exception-handling</module>
+		<module>../04-rest-ws-user-service-enhancements</module>
+		<module>../05-rest-ws-user-service-validation</module>
+		<module>../06-rest-ws-user-service-hateoas</module>
+		<module>../07-rest-ws-user-service-i18n</module>
+		<module>../08-rest-ws-user-service-content-negotiation-xml</module>
+		<module>../09-rest-ws-user-service-swagger2-basics</module>
+		<module>../10-rest-ws-user-service-swagger2-advance</module>
+		<module>../11-rest-ws-us-actuator-monitoring</module>
+		<module>../12-rest-ws-us-static-filtering</module>
+		<module>../13-rest-ws-us-dynamic-filtering</module>
+		<module>../14-rest-ws-us-api-versioning</module>
+		<module>../15-rest-ws-us-spring-security-basic</module>
+		<module>../16-rest-ws-us-spring-security-advance</module>
+		<module>../17-rest-ws-us-spring-jpa-basic</module>
+		<module>../18-rest-ws-us-spring-jpa-basic-2</module>
+		<module>../zz-rest-ws-exception-handling</module>
+
+	</modules>
+
+	<!--<build>
+		<plugins>
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
+		</plugins>
+	</build>-->
+
+</project>
